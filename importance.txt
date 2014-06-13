@@ -1,0 +1,57 @@
+--- Factory                  : Ranking input variables (method specific)...
+--- BDTG                     : Ranking result (top variable is best ranked)
+--- BDTG                     : -------------------------------------------------------------
+--- BDTG                     : Rank : Variable                    : Variable Importance
+--- BDTG                     : -------------------------------------------------------------
+--- BDTG                     :    1 : avg_btag_disc_btags         : 2.035e-02
+--- BDTG                     :    2 : numHiggsLike_dijet_15_float : 1.212e-02
+--- BDTG                     :    3 : dEtaJJ_ptAsymJJMin          : 9.114e-03
+--- BDTG                     :    4 : avg_btag_disc_non_btags     : 9.054e-03
+--- BDTG                     :    5 : dPhiJJ_ptLeadOtherMax       : 8.804e-03
+--- BDTG                     :    6 : dEtaJJ_pOtherMax            : 8.765e-03
+--- BDTG                     :    7 : dPhiJJ_dEtaJJMin            : 8.694e-03
+--- BDTG                     :    8 : dEtaJJ_ptOtherMax           : 8.335e-03
+--- BDTG                     :    9 : dRJJ_sumPtJJMax             : 8.199e-03
+--- BDTG                     :   10 : sumPtJJ_ptLeadOtherMax      : 8.180e-03
+--- BDTG                     :   11 : dEtaJJ_dPhiJJMin            : 7.831e-03
+--- BDTG                     :   12 : mJJ_dRJJMin                 : 7.806e-03
+--- BDTG                     :   13 : ptAsymJJ_pJJMin             : 7.660e-03
+--- BDTG                     :   14 : ptLeadOther_sumPtJJMax      : 7.631e-03
+--- BDTG                     :   15 : ptAsymJJ_ptJJMin            : 7.563e-03
+--- BDTG                     :   16 : mJJ_ptJJMax                 : 7.544e-03
+--- BDTG                     :   17 : dPhiJJ_mOtherMin            : 7.431e-03
+--- BDTG                     :   18 : pJJ_mOtherMin               : 7.400e-03
+--- BDTG                     :   19 : etaOther_ptOtherMax         : 7.277e-03
+--- BDTG                     :   20 : mJJ_mJJMin                  : 7.140e-03
+--- BDTG                     :   21 : dPhiJJ_ptAsymJJMax          : 7.051e-03
+--- BDTG                     :   22 : ptJJ_ptOtherMin             : 6.994e-03
+--- BDTG                     :   23 : dEtaJJ_etaOtherMin          : 6.974e-03
+--- BDTG                     :   24 : etaJJ_dRJJMin               : 6.946e-03
+--- BDTG                     :   25 : dEtaJJ_dRJJMax              : 6.905e-03
+--- BDTG                     :   26 : etaOther_ptOtherMin         : 6.861e-03
+--- BDTG                     :   27 : dPhiJJ_etaJJMax             : 6.581e-03
+--- BDTG                     :   28 : ptAsymJJ_pOtherMax          : 6.542e-03
+--- BDTG                     :   29 : pOther_mOtherMin            : 6.533e-03
+--- BDTG                     :   30 : sumPtJJ_mOtherMin           : 6.459e-03
+--- BDTG                     :   31 : ptSumOther_dPhiJJMax        : 6.265e-03
+--- BDTG                     :   32 : pJJ_mJJMax                  : 6.229e-03
+--- BDTG                     :   33 : dEtaJJ_dEtaJJMin            : 6.150e-03
+--- BDTG                     :   34 : ptLeadOther_pOtherMin       : 6.149e-03
+--- BDTG                     :   35 : dEtaJJ_dEtaJJMax            : 6.084e-03
+--- BDTG                     :   36 : ptAsymJJ_sumPtJJMax         : 6.019e-03
+--- BDTG                     :   37 : dEtaJJ_dPhiJJMax            : 5.966e-03
+--- BDTG                     :   38 : mOther_dRJJMax              : 5.877e-03
+--- BDTG                     :   39 : sumPtJJ_pJJMax              : 5.852e-03
+--- BDTG                     :   40 : sumPtJJ_dPhiJJMin           : 5.762e-03
+--- BDTG                     :   41 : ptSumOther_ptAsymJJMax      : 5.759e-03
+--- BDTG                     :   42 : etaOther_dRJJMin            : 5.721e-03
+--- BDTG                     :   43 : dRJJ_etaOtherMin            : 5.563e-03
+--- BDTG                     :   44 : ptLeadOther_mJJMax          : 5.559e-03
+--- BDTG                     :   45 : dRJJ_dRJJMax                : 5.512e-03
+--- BDTG                     :   46 : ptJJ_ptLeadOtherMax         : 5.489e-03
+--- BDTG                     :   47 : ptAsymJJ_mOtherMin          : 5.449e-03
+--- BDTG                     :   48 : dRJJ_ptAsymJJMin            : 5.420e-03
+--- BDTG                     :   49 : dRJJ_dPhiJJMin              : 5.378e-03
+--- BDTG                     :   50 : pOther_dRJJMin              : 5.370e-03
+--- BDTG                     :   51 : ptAsymJJ_ptOtherMax         : 5.349e-03
+--- BDTG                     :   52 : higgsLike_dijet_mass        : 5.282e-03

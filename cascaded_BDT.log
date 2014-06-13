@@ -1,0 +1,339 @@
+
+Processing TMVAClassification_modB_A.C+("BDTG","ge3t","numJets>=3","numTaggedJets==3",true,"OS",-2)...
+
+==> Start TMVAClassification
+--- TMVAClassification       : Using tth input file: output/mva_ttH125.root
+--- TMVAClassification       : Using ttbar_lf input file: output/mva_ttbar_lf.root
+--- TMVAClassification       : Using ttbar_cc input file: output/mva_ttbar_cc.root
+--- Factory                  : You are running ROOT Version: 5.32/00, Dec 2, 2011
+--- Factory                  : 
+--- Factory                  : _/_/_/_/_/ _|      _|  _|      _|    _|_|   
+--- Factory                  :    _/      _|_|  _|_|  _|      _|  _|    _| 
+--- Factory                  :   _/       _|  _|  _|  _|      _|  _|_|_|_| 
+--- Factory                  :  _/        _|      _|    _|  _|    _|    _| 
+--- Factory                  : _/         _|      _|      _|      _|    _| 
+--- Factory                  : 
+--- Factory                  : ___________TMVA Version 4.1.2, Jun 21, 2011
+--- Factory                  : 
+--- DataSetInfo              : Added class "Signal"	 with internal class number 0
+--- Factory                  : Add Tree summaryTree of type Signal with 43231 events
+--- DataSetInfo              : Added class "Background"	 with internal class number 1
+--- Factory                  : Add Tree summaryTree of type Background with 2233588 events
+--- Factory                  : Add Tree summaryTree of type Background with 104277 events
+--- Factory                  : Preparing trees for training and testing...
+--- Factory                  : Booking method: [1mBDTG[0m
+--- DataSetFactory           : Splitmode is: "RANDOM" the mixmode is: "SAMEASSPLITMODE"
+--- DataSetFactory           : Create training and testing trees -- looping over class "Signal" ...
+--- DataSetFactory           : Weight expression for class 'Signal': "weight*topPtWgt*csvWgtlf*csvWgthf*lepTotalSF*triggerSF"
+--- DataSetFactory           : Create training and testing trees -- looping over class "Background" ...
+--- DataSetFactory           : Weight expression for class 'Background': "weight*topPtWgt*csvWgtlf*csvWgthf*lepTotalSF*triggerSF"
+--- DataSetFactory           : Number of events in input trees (after possible flattening of arrays):
+--- DataSetFactory           :     Signal          -- number of events       : 43231  / sum of weights: 43567.1
+--- DataSetFactory           :     Background      -- number of events       : 2337865  / sum of weights: 2.10479e+06
+--- DataSetFactory           :     Signal     tree -- total number of entries: 43231
+--- DataSetFactory           :     Background tree -- total number of entries: 2337865
+--- DataSetFactory           : Preselection: (will effect number of requested training and testing events)
+--- DataSetFactory           :     Signal     requirement: "((((( (TwoMuon && isDoubleMuTriggerPass) || (TwoEle && isDoubleElectronTriggerPass) || (MuonEle && isMuEGTriggerPass) ) )&&(isCleanEvent && (dR_leplep > 0.2) && (mass_leplep > 12) ))&&((oppositeLepCharge == 1)))&&(numJets>=3))&&(numTaggedJets==3)"
+--- DataSetFactory           :     Signal          -- number of events passed: 4106   / sum of weights: 3743.14
+--- DataSetFactory           :     Signal          -- efficiency             : 0.0859165
+--- DataSetFactory           :     Background requirement: "((((( (TwoMuon && isDoubleMuTriggerPass) || (TwoEle && isDoubleElectronTriggerPass) || (MuonEle && isMuEGTriggerPass) ) )&&(isCleanEvent && (dR_leplep > 0.2) && (mass_leplep > 12) ))&&((oppositeLepCharge == 1)))&&(numJets>=3))&&(numTaggedJets==3)"
+--- DataSetFactory           :     Background      -- number of events passed: 9658   / sum of weights: 6929.35
+--- DataSetFactory           :     Background      -- efficiency             : 0.00329218
+--- DataSetFactory           : Weight renormalisation mode: "NumEvents": renormalise independently the ...
+--- DataSetFactory           : ... class weights so that Sum[i=1..N_j]{w_i} = N_j, j=0,1,2...
+--- DataSetFactory           : ... (note that N_j is the sum of training and test events)
+--- DataSetFactory           : --> Rescale Signal     event weights by factor: 1.097
+--- DataSetFactory           : --> Rescale Background event weights by factor: 1.40418
+--- DataSetFactory           : Number of training and testing events after rescaling:
+--- DataSetFactory           : ------------------------------------------------------
+--- DataSetFactory           : Signal     -- training events            : 2052 (sum of weights: 2082.33) - requested were 21615 events
+--- DataSetFactory           : Signal     -- testing events             : 2052 (sum of weights: 2021.67) - requested were 21615 events
+--- DataSetFactory           : Signal     -- training and testing events: 4104 (sum of weights: 4104)
+--- DataSetFactory           : Signal     -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.0949781
+--- DataSetFactory           : Background -- training events            : 2052 (sum of weights: 2034.18) - requested were 496959 events
+--- DataSetFactory           : Background -- testing events             : 2052 (sum of weights: 2069.82) - requested were 496959 events
+--- DataSetFactory           : Background -- training and testing events: 4104 (sum of weights: 4104)
+--- DataSetFactory           : Background -- due to the preselection a scaling factor has been applied to the numbers of requested events: 0.00413112
+--- DataSetFactory           : Create internal training tree
+--- DataSetFactory           : Create internal testing tree
+--- DataSetInfo              : Correlation matrix (Signal):
+--- DataSetInfo              : ------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- DataSetInfo              :                              higgsLike_dijet_mass higgsLike_dijet_mass2 numHiggsLike_dijet_15_float  sum_pt min_dr_jets avg_btag_disc_btags BDTG_CHARLIEge3t
+--- DataSetInfo              :        higgsLike_dijet_mass:               +1.000                +0.412                      -0.157  +0.157      +0.240              -0.016           +0.088
+--- DataSetInfo              :       higgsLike_dijet_mass2:               +0.412                +1.000                      -0.279  +0.212      +0.263              -0.019           -0.065
+--- DataSetInfo              : numHiggsLike_dijet_15_float:               -0.157                -0.279                      +1.000  -0.012      -0.167              -0.011           +0.373
+--- DataSetInfo              :                      sum_pt:               +0.157                +0.212                      -0.012  +1.000      -0.308              -0.080           +0.392
+--- DataSetInfo              :                 min_dr_jets:               +0.240                +0.263                      -0.167  -0.308      +1.000              +0.062           -0.190
+--- DataSetInfo              :         avg_btag_disc_btags:               -0.016                -0.019                      -0.011  -0.080      +0.062              +1.000           -0.043
+--- DataSetInfo              :            BDTG_CHARLIEge3t:               +0.088                -0.065                      +0.373  +0.392      -0.190              -0.043           +1.000
+--- DataSetInfo              : ------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- DataSetInfo              : Correlation matrix (Background):
+--- DataSetInfo              : ------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- DataSetInfo              :                              higgsLike_dijet_mass higgsLike_dijet_mass2 numHiggsLike_dijet_15_float  sum_pt min_dr_jets avg_btag_disc_btags BDTG_CHARLIEge3t
+--- DataSetInfo              :        higgsLike_dijet_mass:               +1.000                +0.529                      -0.174  +0.206      +0.392              +0.019           -0.032
+--- DataSetInfo              :       higgsLike_dijet_mass2:               +0.529                +1.000                      -0.257  +0.222      +0.415              +0.016           -0.019
+--- DataSetInfo              : numHiggsLike_dijet_15_float:               -0.174                -0.257                      +1.000  +0.006      -0.236              +0.019           +0.463
+--- DataSetInfo              :                      sum_pt:               +0.206                +0.222                      +0.006  +1.000      -0.205              -0.004           +0.442
+--- DataSetInfo              :                 min_dr_jets:               +0.392                +0.415                      -0.236  -0.205      +1.000              +0.011           -0.261
+--- DataSetInfo              :         avg_btag_disc_btags:               +0.019                +0.016                      +0.019  -0.004      +0.011              +1.000           -0.025
+--- DataSetInfo              :            BDTG_CHARLIEge3t:               -0.032                -0.019                      +0.463  +0.442      -0.261              -0.025           +1.000
+--- DataSetInfo              : ------------------------------------------------------------------------------------------------------------------------------------------------------------
+--- DataSetFactory           :  
+--- Factory                  : 
+--- Factory                  : current transformation string: 'I'
+--- Factory                  : Create Transformation "I" with events from all classes.
+--- Id                       : Transformation, Variable selection : 
+--- Id                       : Input : variable 'higgsLike_dijet_mass' (index=0).   <---> Output : variable 'higgsLike_dijet_mass' (index=0).
+--- Id                       : Input : variable 'higgsLike_dijet_mass2' (index=1).   <---> Output : variable 'higgsLike_dijet_mass2' (index=1).
+--- Id                       : Input : variable 'numHiggsLike_dijet_15_float' (index=2).   <---> Output : variable 'numHiggsLike_dijet_15_float' (index=2).
+--- Id                       : Input : variable 'sum_pt' (index=3).   <---> Output : variable 'sum_pt' (index=3).
+--- Id                       : Input : variable 'min_dr_jets' (index=4).   <---> Output : variable 'min_dr_jets' (index=4).
+--- Id                       : Input : variable 'avg_btag_disc_btags' (index=5).   <---> Output : variable 'avg_btag_disc_btags' (index=5).
+--- Id                       : Input : variable 'BDTG_CHARLIEge3t' (index=6).   <---> Output : variable 'BDTG_CHARLIEge3t' (index=6).
+--- Factory                  : 
+--- Factory                  : current transformation string: 'D'
+--- Factory                  : Create Transformation "D" with events from all classes.
+--- Deco                     : Transformation, Variable selection : 
+--- Deco                     : Input : variable 'higgsLike_dijet_mass' (index=0).   <---> Output : variable 'higgsLike_dijet_mass' (index=0).
+--- Deco                     : Input : variable 'higgsLike_dijet_mass2' (index=1).   <---> Output : variable 'higgsLike_dijet_mass2' (index=1).
+--- Deco                     : Input : variable 'numHiggsLike_dijet_15_float' (index=2).   <---> Output : variable 'numHiggsLike_dijet_15_float' (index=2).
+--- Deco                     : Input : variable 'sum_pt' (index=3).   <---> Output : variable 'sum_pt' (index=3).
+--- Deco                     : Input : variable 'min_dr_jets' (index=4).   <---> Output : variable 'min_dr_jets' (index=4).
+--- Deco                     : Input : variable 'avg_btag_disc_btags' (index=5).   <---> Output : variable 'avg_btag_disc_btags' (index=5).
+--- Deco                     : Input : variable 'BDTG_CHARLIEge3t' (index=6).   <---> Output : variable 'BDTG_CHARLIEge3t' (index=6).
+--- Factory                  : 
+--- Factory                  : current transformation string: 'P'
+--- Factory                  : Create Transformation "P" with events from all classes.
+--- PCA                      : Transformation, Variable selection : 
+--- PCA                      : Input : variable 'higgsLike_dijet_mass' (index=0).   <---> Output : variable 'higgsLike_dijet_mass' (index=0).
+--- PCA                      : Input : variable 'higgsLike_dijet_mass2' (index=1).   <---> Output : variable 'higgsLike_dijet_mass2' (index=1).
+--- PCA                      : Input : variable 'numHiggsLike_dijet_15_float' (index=2).   <---> Output : variable 'numHiggsLike_dijet_15_float' (index=2).
+--- PCA                      : Input : variable 'sum_pt' (index=3).   <---> Output : variable 'sum_pt' (index=3).
+--- PCA                      : Input : variable 'min_dr_jets' (index=4).   <---> Output : variable 'min_dr_jets' (index=4).
+--- PCA                      : Input : variable 'avg_btag_disc_btags' (index=5).   <---> Output : variable 'avg_btag_disc_btags' (index=5).
+--- PCA                      : Input : variable 'BDTG_CHARLIEge3t' (index=6).   <---> Output : variable 'BDTG_CHARLIEge3t' (index=6).
+--- Factory                  : 
+--- Factory                  : current transformation string: 'G,D'
+--- Factory                  : Create Transformation "G" with events from all classes.
+--- Gauss                    : Transformation, Variable selection : 
+--- Gauss                    : Input : variable 'higgsLike_dijet_mass' (index=0).   <---> Output : variable 'higgsLike_dijet_mass' (index=0).
+--- Gauss                    : Input : variable 'higgsLike_dijet_mass2' (index=1).   <---> Output : variable 'higgsLike_dijet_mass2' (index=1).
+--- Gauss                    : Input : variable 'numHiggsLike_dijet_15_float' (index=2).   <---> Output : variable 'numHiggsLike_dijet_15_float' (index=2).
+--- Gauss                    : Input : variable 'sum_pt' (index=3).   <---> Output : variable 'sum_pt' (index=3).
+--- Gauss                    : Input : variable 'min_dr_jets' (index=4).   <---> Output : variable 'min_dr_jets' (index=4).
+--- Gauss                    : Input : variable 'avg_btag_disc_btags' (index=5).   <---> Output : variable 'avg_btag_disc_btags' (index=5).
+--- Gauss                    : Input : variable 'BDTG_CHARLIEge3t' (index=6).   <---> Output : variable 'BDTG_CHARLIEge3t' (index=6).
+--- Factory                  : Create Transformation "D" with events from all classes.
+--- Deco                     : Transformation, Variable selection : 
+--- Deco                     : Input : variable 'higgsLike_dijet_mass' (index=0).   <---> Output : variable 'higgsLike_dijet_mass' (index=0).
+--- Deco                     : Input : variable 'higgsLike_dijet_mass2' (index=1).   <---> Output : variable 'higgsLike_dijet_mass2' (index=1).
+--- Deco                     : Input : variable 'numHiggsLike_dijet_15_float' (index=2).   <---> Output : variable 'numHiggsLike_dijet_15_float' (index=2).
+--- Deco                     : Input : variable 'sum_pt' (index=3).   <---> Output : variable 'sum_pt' (index=3).
+--- Deco                     : Input : variable 'min_dr_jets' (index=4).   <---> Output : variable 'min_dr_jets' (index=4).
+--- Deco                     : Input : variable 'avg_btag_disc_btags' (index=5).   <---> Output : variable 'avg_btag_disc_btags' (index=5).
+--- Deco                     : Input : variable 'BDTG_CHARLIEge3t' (index=6).   <---> Output : variable 'BDTG_CHARLIEge3t' (index=6).
+--- Id                       : Preparing the Identity transformation...
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :        higgsLike_dijet_mass:                       120.07                       30.966   [                       32.062                       474.47 ]
+--- TFHandler_Factory        :       higgsLike_dijet_mass2:                       134.82                       62.202   [                       34.180                       814.31 ]
+--- TFHandler_Factory        : numHiggsLike_dijet_15_float:                       1.1667                       1.1719   [                       0.0000                       7.0000 ]
+--- TFHandler_Factory        :                      sum_pt:                       462.14                       181.44   [                       155.81                       1948.9 ]
+--- TFHandler_Factory        :                 min_dr_jets:                       1.1866                      0.49867   [                      0.50385                       3.3172 ]
+--- TFHandler_Factory        :         avg_btag_disc_btags:                      0.90790                     0.047909   [                      0.68153                      0.99996 ]
+--- TFHandler_Factory        :            BDTG_CHARLIEge3t:                    -0.023693                      0.29395   [                     -0.91327                      0.49533 ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        : Plot event variables for Id
+--- TFHandler_Factory        : Create scatter and profile plots in target-file directory: 
+--- TFHandler_Factory        : TMVA_trained_OS_ge3t_aaa.root:/InputVariables_Id/CorrelationPlots
+--- Deco                     : Preparing the Decorrelation transformation...
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :        higgsLike_dijet_mass:                       3.3495                       1.0000   [                     -0.45340                       13.679 ]
+--- TFHandler_Factory        :       higgsLike_dijet_mass2:                       1.3141                       1.0000   [                     -0.69949                       12.065 ]
+--- TFHandler_Factory        : numHiggsLike_dijet_15_float:                       1.7268                       1.0000   [                     0.092740                       6.9246 ]
+--- TFHandler_Factory        :                      sum_pt:                       2.4203                       1.0000   [                      0.71413                       10.729 ]
+--- TFHandler_Factory        :                 min_dr_jets:                       2.2034                       1.0000   [                      -2.3465                       6.2711 ]
+--- TFHandler_Factory        :         avg_btag_disc_btags:                       19.033                       1.0000   [                       14.240                       21.105 ]
+--- TFHandler_Factory        :            BDTG_CHARLIEge3t:                      -1.8076                       1.0000   [                      -7.2725                      0.94306 ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        : Plot event variables for Deco
+--- TFHandler_Factory        : Create scatter and profile plots in target-file directory: 
+--- TFHandler_Factory        : TMVA_trained_OS_ge3t_aaa.root:/InputVariables_Deco/CorrelationPlots
+--- PCA                      : Preparing the Principle Component (PCA) transformation...
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :        higgsLike_dijet_mass:                      -9.9067                       181.91   [                      -315.27                       1469.8 ]
+--- TFHandler_Factory        :       higgsLike_dijet_mass2:                      0.78488                       63.178   [                      -695.94                       152.14 ]
+--- TFHandler_Factory        : numHiggsLike_dijet_15_float:                    -0.054188                       25.773   [                      -227.34                       127.27 ]
+--- TFHandler_Factory        :                      sum_pt:                    -0.015156                       1.1296   [                      -5.6817                       2.0966 ]
+--- TFHandler_Factory        :                 min_dr_jets:                    0.0035141                      0.40677   [                      -1.9633                       1.6565 ]
+--- TFHandler_Factory        :         avg_btag_disc_btags:                   -0.0031476                      0.22588   [                      -1.2768                      0.64180 ]
+--- TFHandler_Factory        :            BDTG_CHARLIEge3t:                   -0.0038310                     0.047708   [                     -0.23215                     0.096345 ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        : Plot event variables for PCA
+--- TFHandler_Factory        : Create scatter and profile plots in target-file directory: 
+--- TFHandler_Factory        : TMVA_trained_OS_ge3t_aaa.root:/InputVariables_PCA/CorrelationPlots
+--- Gauss                    : Preparing the Gaussian transformation...
+--- Deco                     : Preparing the Decorrelation transformation...
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        :        higgsLike_dijet_mass:                    -0.035686                       1.0000   [                      -6.0755                       5.1305 ]
+--- TFHandler_Factory        :       higgsLike_dijet_mass2:                    -0.061494                       1.0000   [                      -5.9399                       5.3223 ]
+--- TFHandler_Factory        : numHiggsLike_dijet_15_float:                     -0.52620                       1.0000   [                      -3.3212                       2.7334 ]
+--- TFHandler_Factory        :                      sum_pt:                    -0.085598                       1.0000   [                      -6.8766                       7.3303 ]
+--- TFHandler_Factory        :                 min_dr_jets:                    -0.051148                       1.0000   [                      -4.6423                       5.5812 ]
+--- TFHandler_Factory        :         avg_btag_disc_btags:                     0.021321                       1.0000   [                      -4.7173                       5.7509 ]
+--- TFHandler_Factory        :            BDTG_CHARLIEge3t:                      0.25053                       1.0000   [                      -4.2701                       8.7627 ]
+--- TFHandler_Factory        : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_Factory        : Plot event variables for Gauss_Deco
+--- TFHandler_Factory        : Create scatter and profile plots in target-file directory: 
+--- TFHandler_Factory        : TMVA_trained_OS_ge3t_aaa.root:/InputVariables_Gauss_Deco/CorrelationPlots
+--- TFHandler_Factory        :  
+--- TFHandler_Factory        : Ranking input variables (method unspecific)...
+--- IdTransformation         : Ranking result (top variable is best ranked)
+--- IdTransformation         : ----------------------------------------------------
+--- IdTransformation         : Rank : Variable                    : Separation
+--- IdTransformation         : ----------------------------------------------------
+--- IdTransformation         :    1 : BDTG_CHARLIEge3t            : 1.264e-01
+--- IdTransformation         :    2 : avg_btag_disc_btags         : 1.238e-01
+--- IdTransformation         :    3 : higgsLike_dijet_mass2       : 9.258e-02
+--- IdTransformation         :    4 : sum_pt                      : 8.654e-02
+--- IdTransformation         :    5 : numHiggsLike_dijet_15_float : 8.428e-02
+--- IdTransformation         :    6 : min_dr_jets                 : 8.038e-02
+--- IdTransformation         :    7 : higgsLike_dijet_mass        : 6.989e-02
+--- IdTransformation         : ----------------------------------------------------
+--- Factory                  :  
+--- Factory                  : Train all methods for Classification ...
+--- Factory                  : Train method: BDTG for Classification
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_BDTG           :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_BDTG           :        higgsLike_dijet_mass:                       120.07                       30.966   [                       32.062                       474.47 ]
+--- TFHandler_BDTG           :       higgsLike_dijet_mass2:                       134.82                       62.202   [                       34.180                       814.31 ]
+--- TFHandler_BDTG           : numHiggsLike_dijet_15_float:                       1.1667                       1.1719   [                       0.0000                       7.0000 ]
+--- TFHandler_BDTG           :                      sum_pt:                       462.14                       181.44   [                       155.81                       1948.9 ]
+--- TFHandler_BDTG           :                 min_dr_jets:                       1.1866                      0.49867   [                      0.50385                       3.3172 ]
+--- TFHandler_BDTG           :         avg_btag_disc_btags:                      0.90790                     0.047909   [                      0.68153                      0.99996 ]
+--- TFHandler_BDTG           :            BDTG_CHARLIEge3t:                    -0.023693                      0.29395   [                     -0.91327                      0.49533 ]
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- BDTG                     : Begin training
+--- BDTG                     : Training 400 Decision Trees ... patience please
+--- BDTG                     : <Train> elapsed time: [1;31m2.29 sec[0m                              
+--- BDTG                     : <Train> average number of nodes (w/o pruning) : 5
+--- BDTG                     : End of training                                              
+--- BDTG                     : Elapsed time for training with 4104 events: [1;31m2.29 sec[0m         
+--- BDTG                     : Create MVA output for classification on training sample
+--- BDTG                     : Evaluation of BDTG on training sample (4104 events)
+--- BDTG                     : Elapsed time for evaluation of 4104 events: [1;31m0.185 sec[0m       
+--- BDTG                     : Creating weight file in xml format: [0;36mweights/ge3t/TMVAClassification_BDTG.weights.xml[0m
+--- BDTG                     : Creating standalone response class: [0;36mweights/ge3t/TMVAClassification_BDTG.class.C[0m
+--- BDTG                     : Write monitoring histograms to file: TMVA_trained_OS_ge3t_aaa.root:/Method_BDT/BDTG
+--- Factory                  : Training finished
+--- Factory                  : 
+--- Factory                  : Ranking input variables (method specific)...
+--- BDTG                     : Ranking result (top variable is best ranked)
+--- BDTG                     : -------------------------------------------------------------
+--- BDTG                     : Rank : Variable                    : Variable Importance
+--- BDTG                     : -------------------------------------------------------------
+--- BDTG                     :    1 : avg_btag_disc_btags         : 2.026e-01
+--- BDTG                     :    2 : BDTG_CHARLIEge3t            : 1.669e-01
+--- BDTG                     :    3 : min_dr_jets                 : 1.547e-01
+--- BDTG                     :    4 : higgsLike_dijet_mass2       : 1.504e-01
+--- BDTG                     :    5 : sum_pt                      : 1.394e-01
+--- BDTG                     :    6 : higgsLike_dijet_mass        : 9.915e-02
+--- BDTG                     :    7 : numHiggsLike_dijet_15_float : 8.690e-02
+--- BDTG                     : -------------------------------------------------------------
+--- Factory                  : 
+--- Factory                  : === Destroy and recreate all methods via weight files for testing ===
+--- Factory                  : 
+--- MethodBase               : Reading weight file: [0;36mweights/ge3t/TMVAClassification_BDTG.weights.xml[0m
+--- BDTG                     : Read method "BDTG" of type "BDT"
+--- BDTG                     : MVA method was trained with TMVA Version: 4.1.2
+--- BDTG                     : MVA method was trained with ROOT Version: 5.32/00
+--- Factory                  : Test all methods...
+--- Factory                  : Test method: BDTG for Classification performance
+--- BDTG                     : Evaluation of BDTG on testing sample (4104 events)
+--- BDTG                     : Elapsed time for evaluation of 4104 events: [1;31m0.174 sec[0m       
+--- Factory                  : Evaluate all methods...
+--- Factory                  : Evaluate classifier: BDTG
+--- BDTG                     : Loop over test events and fill histograms with classifier response...
+--- Factory                  : Write evaluation histograms to file
+--- TFHandler_BDTG           : Plot event variables for BDTG
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_BDTG           :                    Variable                           Mean                           RMS                   [        Min                           Max ]
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_BDTG           :        higgsLike_dijet_mass:                       121.41                       30.980   [                       38.905                       450.43 ]
+--- TFHandler_BDTG           :       higgsLike_dijet_mass2:                       138.03                       67.806   [                       27.955                       936.79 ]
+--- TFHandler_BDTG           : numHiggsLike_dijet_15_float:                       1.1273                       1.1247   [                       0.0000                       7.0000 ]
+--- TFHandler_BDTG           :                      sum_pt:                       453.81                       180.53   [                       159.48                       2354.7 ]
+--- TFHandler_BDTG           :                 min_dr_jets:                       1.1993                      0.50426   [                      0.50540                       3.4697 ]
+--- TFHandler_BDTG           :         avg_btag_disc_btags:                      0.90844                     0.047730   [                      0.71293                      0.99998 ]
+--- TFHandler_BDTG           :            BDTG_CHARLIEge3t:                    -0.040936                      0.30105   [                     -0.92558                      0.51076 ]
+--- TFHandler_BDTG           : ----------------------------------------------------------------------------------------------------------------------------------------------------------
+--- TFHandler_BDTG           : Create scatter and profile plots in target-file directory: 
+--- TFHandler_BDTG           : TMVA_trained_OS_ge3t_aaa.root:/Method_BDT/BDTG/CorrelationPlots
+--- Factory                  : Correlations between input variables and MVA response (signal):
+--- Factory                  : ----------------
+--- Factory                  :                                 BDTG
+--- Factory                  :        higgsLike_dijet_mass:  -0.157
+--- Factory                  :       higgsLike_dijet_mass2:  -0.190
+--- Factory                  : numHiggsLike_dijet_15_float:  +0.418
+--- Factory                  :                      sum_pt:  +0.242
+--- Factory                  :                 min_dr_jets:  -0.381
+--- Factory                  :         avg_btag_disc_btags:  +0.625
+--- Factory                  :            BDTG_CHARLIEge3t:  +0.515
+--- Factory                  : ----------------
+--- Factory                  : 
+--- Factory                  : Correlations between input variables and MVA response (background):
+--- Factory                  : ----------------
+--- Factory                  :                                 BDTG
+--- Factory                  :        higgsLike_dijet_mass:  -0.114
+--- Factory                  :       higgsLike_dijet_mass2:  -0.185
+--- Factory                  : numHiggsLike_dijet_15_float:  +0.478
+--- Factory                  :                      sum_pt:  +0.427
+--- Factory                  :                 min_dr_jets:  -0.488
+--- Factory                  :         avg_btag_disc_btags:  +0.455
+--- Factory                  :            BDTG_CHARLIEge3t:  +0.658
+--- Factory                  : ----------------
+--- Factory                  : 
+--- Factory                  : The following "overlap" matrices contain the fraction of events for which 
+--- Factory                  : the MVAs 'i' and 'j' have returned conform answers about "signal-likeness"
+--- Factory                  : An event is signal-like, if its MVA output exceeds the following value:
+--- Factory                  : --------------------
+--- Factory                  :  Method:  Cut value:
+--- Factory                  : --------------------
+--- Factory                  :    BDTG:     +0.033
+--- Factory                  : --------------------
+--- Factory                  : which correspond to the working point: eff(signal) = 1 - eff(background)
+--- Factory                  : 
+--- Factory                  : Evaluation results ranked by best signal efficiency and purity (area)
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : MVA              Signal efficiency at bkg eff.(error):       | Sepa-    Signifi- 
+--- Factory                  : Method:          @B=0.01    @B=0.10    @B=0.30    ROC-integ. | ration:  cance:   
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : BDTG           : 0.113(07)  0.419(10)  0.709(10)    0.775    | 0.233    0.728
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : 
+--- Factory                  : Testing efficiency compared to training efficiency (overtraining check)
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : MVA              Signal efficiency: from test sample (from training sample) 
+--- Factory                  : Method:          @B=0.01             @B=0.10            @B=0.30   
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : BDTG           : 0.113 (0.191)       0.419 (0.471)      0.709 (0.721)
+--- Factory                  : --------------------------------------------------------------------------------
+--- Factory                  : 
+--- Dataset:Default          : Created tree 'TestTree' with 4104 events
+--- Dataset:Default          : Created tree 'TrainTree' with 4104 events
+--- Factory                  :   
+--- Factory                  : [1mThank you for using TMVA![0m
+--- Factory                  : [1mFor citation information, please visit: http://tmva.sf.net/citeTMVA.html[0m
+  
+==> Wrote root file: TMVA_trained_OS_ge3t_aaa.root
+  
+  
+==> TMVAClassification is done!

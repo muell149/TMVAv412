@@ -1,0 +1,461 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test
+END
+nightlyClassifiers.make
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/nightlyClassifiers.make
+END
+TMVAClassificationCategory.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationCategory.cxx
+END
+sigmoid-small.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/sigmoid-small.png
+END
+correlations.C
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/correlations.C
+END
+rulevisHists.C
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/rulevisHists.C
+END
+paracoor.C
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/paracoor.C
+END
+TMVAlogon.C
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAlogon.C
+END
+BDT_Reg.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/BDT_Reg.C
+END
+TMVARegression.C
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVARegression.C
+END
+variables.C
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/variables.C
+END
+BDT.C
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/BDT.C
+END
+tmvaglob.C
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/tmvaglob.C
+END
+TMVAMulticlassApplication.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMulticlassApplication.cxx
+END
+TMVAMultipleBackgroundExample.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMultipleBackgroundExample.cxx
+END
+rulevisCorr.C
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/rulevisCorr.C
+END
+TMVARegression.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVARegression.cxx
+END
+correlationscattersMultiClass.C
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/correlationscattersMultiClass.C
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/Makefile
+END
+BDTControlPlots.C
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/BDTControlPlots.C
+END
+line-small.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/line-small.png
+END
+MovieMaker.C
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/MovieMaker.C
+END
+mvas.C
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/mvas.C
+END
+mvasMulticlass.C
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/mvasMulticlass.C
+END
+TMVAMulticlass.C
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMulticlass.C
+END
+TMVARegGui.C
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVARegGui.C
+END
+TMVAGAexample.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAGAexample.cxx
+END
+TMVAGui.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAGui.C
+END
+TMVAMultiClassGui.C
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMultiClassGui.C
+END
+mvaweights.C
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/mvaweights.C
+END
+TMVAClassificationCategory.C
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationCategory.C
+END
+TMVAClassificationCategoryApplication.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationCategoryApplication.cxx
+END
+probas.C
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/probas.C
+END
+Boost.C
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/Boost.C
+END
+mvaeffs.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/mvaeffs.C
+END
+TMVAClassificationApplication.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationApplication.cxx
+END
+TMVAMulticlass.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMulticlass.cxx
+END
+turnLogToHTML.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/turnLogToHTML.py
+END
+run_web.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/run_web.sh
+END
+correlationscatters.C
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/correlationscatters.C
+END
+likelihoodrefs.C
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/likelihoodrefs.C
+END
+TMVAClassification.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassification.cxx
+END
+PlotFoams.C
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/PlotFoams.C
+END
+Boost2.C
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/Boost2.C
+END
+BoostControlPlots.C
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/BoostControlPlots.C
+END
+CorrGuiMultiClass.C
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/CorrGuiMultiClass.C
+END
+TMVAClassification.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassification.py
+END
+rulevis.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/rulevis.C
+END
+annconvergencetest.C
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/annconvergencetest.C
+END
+TMVARegressionApplication.C
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVARegressionApplication.C
+END
+regression_averagedevs.C
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/regression_averagedevs.C
+END
+createData.C
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/createData.C
+END
+TMVAGAexample2.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAGAexample2.cxx
+END
+PlotDecisionBoundary.C
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/PlotDecisionBoundary.C
+END
+deviations.C
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/deviations.C
+END
+correlationsMultiClass.C
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/correlationsMultiClass.C
+END
+.rootrc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/.rootrc
+END
+TMVAClassificationCategoryApplication.C
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationCategoryApplication.C
+END
+loader.C
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/loader.C
+END
+compareanapp.C
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/compareanapp.C
+END
+plotall.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/plotall.C
+END
+TMVAClassificationApplication.C
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassificationApplication.C
+END
+variablesMultiClass.C
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/variablesMultiClass.C
+END
+tmva_logo.gif
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/tmva_logo.gif
+END
+CorrGui.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/CorrGui.C
+END
+efficiencies.C
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/efficiencies.C
+END
+TMVARegressionApplication.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVARegressionApplication.cxx
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/README
+END
+compareClassApp.C
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/compareClassApp.C
+END
+TMVAClassification.C
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAClassification.C
+END
+TMVATest.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVATest.cxx
+END
+setup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/setup.sh
+END
+network.C
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/network.C
+END
+ClassApplication.C
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/ClassApplication.C
+END
+StandaloneClassExample.C
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/StandaloneClassExample.C
+END
+setup.csh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/setup.csh
+END
+TMVAMulticlassApplication.C
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/root/!svn/ver/40310/branches/dev/tmvatags/V04-01-02/test/TMVAMulticlassApplication.C
+END

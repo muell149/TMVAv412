@@ -1,0 +1,3 @@
+.x TMVAClassification.C("LD")
+.q
+.x TMVAClassification.C("MLP")
